@@ -1,0 +1,142 @@
+
+#frame_div{
+    transition: all 0.4s ease;
+}
+.alwaysBlue{
+    color:blue;
+}
+
+.kahoot_smasher_frame{
+    height:100%;
+    width:100%;
+}
+.kahoot_smasher_frame.shrink{
+    height:50%;
+}
+#xButtonInstall{
+    cursor: pointer;
+}
+
+#footer{
+    width:1240px;
+    max-width:100%;
+    min-width:768px;
+    margin:5px auto;
+    font-size: 11px;
+    text-align:center;
+}
+#blogPadding
+{
+    padding:10px 20px 40px 20px;
+}
+
+#blogContent{
+    width:1240px;
+    max-width:100%;
+    min-width:768px;
+    margin:0 auto;
+    background-color:#fff;
+}
+#title{
+    transition: all 0.4s ease;
+}
+
+#topNavBar{
+    margin:-10px -10px;
+    text-align:center;
+    background-color:#1153c1;
+    color:white;
+    position:fixed;
+    width:100%;
+}
+
+#roomForNav{
+    margin-bottom:92px;
+}
+
+#navBarSelections{
+    list-style-type: none;
+    display:block;
+    padding: 0;
+    margin:0 auto;
+}
+#navBarSelections >li{
+    display: inline-block;
+    height:10px;
+    width: 150px;
+}
+
+#navBarSelections >li> a{
+    display: inline-block;
+    padding:0 20px;
+    width:100%;
+    color:white;
+    text-decoration:none;
+}
+
+#navBarSelections >li> a:hover{
+    background-color:#0143b1/*#800080;*/
+}
+
+.maximizeTopBar{
+    font-size:30px;
+    padding:20px;
+}
+
+.minimizeTopBar{
+    font-size:20px;
+    padding:10px;
+}
+
+.exampleImage
+{
+    border-style: solid;
+    border-color:#000;
+}
+.styledButton{
+    text-decoration:none;
+    border: 0;
+    outline:0;
+    display:inline-block;
+    cursor: pointer;
+    color: #fff;
+    margin: 0 5px;
+    padding: 0 32px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 42px;
+    background: #448AFF;
+    transition: background 0.1s
+}
+.styledButton:hover{
+    background: #3379ff;
+}
+.alignedRight{
+    float:right;
+}
+
+.unmarked_link{
+    color:#000;
+    text-decoration:none;
+}
+
+.unmarked_link:hover{
+    color:#000;
+    font-weight:bold;
+}
+
+p{
+    font-size:1.4 rem;
+}
+
+hr{
+    margin-top:20px;
+}
+
+html, body{
+    height:100%;
+    background-color:#ddd;
+    font-family:Rubik,sans-serif;
+    margin:4px;
+
+}

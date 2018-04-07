@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)https://kahoot-smash.tk/ -->
+<html class="gr__kahoot-smash_tk"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Kahoot Smasher</title>
+     
+    <link rel="stylesheet" href="./Kahoot Smasher_files/style.css">
+    <script src="./Kahoot Smasher_files/jquery.js.download"></script>
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/eidclkcfbegpieiiglgnponaifabbnkh">
+    <link rel="icon" href="https://kahoot-smash.tk/icon.ico">
+</head>
+
+<body data-gr-c-s-loaded="true">
+    <div id="frame_div" class="kahoot_smasher_frame">
+        <iframe class="kahoot_smasher_frame" src="./Kahoot Smasher_files/index.html"></iframe>
+    </div>
+
+    <div id="blogContent">
+        <div id="blogPadding">
+            <h1>Kahoot Smasher</h1>
+            <h2>Overview</h2>
+            <p>Kahoot smash is a free website and chrome extension that aims to allow you to play kahoot better than ever before....</p>
+            <p>Play kahoot with no friends - finally an extension that will allow you to sit at home all day with you computer and your trusty kahoots (endless fun)! Who needs hobbies when you can listen to those catchy tunes!</p>
+            <p>This service joins a Kahoot (of the game pin you specify) as many times as possible with randomized names and begins to randomly answer the questions attempting to get on the leader board.</p>
+
+            <img onclick="chrome.webstore.install()" id="xButtonInstall" src="./Kahoot Smasher_files/chromestore.png">
+            <br>
+            <a style="margin-left:30px" href="https://chrome.google.com/webstore/detail/kahoot-smasher/eidclkcfbegpieiiglgnponaifabbnkh">Store link</a>
+            <br>
+            <br>
+            <a class="styledButton" href="https://kahoot-smash.tk/contactMe.php">Contact me</a>
+            <a class="styledButton" href="https://kahoot-smash.tk/about.php">About me</a><a>
+            </a><a class="styledButton" id="review" type="button" href="https://chrome.google.com/webstore/detail/kahoot-smasher/eidclkcfbegpieiiglgnponaifabbnkh/reviews">Review</a>
+            <hr>
+            <h2>Whats new?</h2>
+            <p>Version: 6.0.1</p>
+            <ul>
+                <li>Massive speed update, algorithm (mostly) level with BETA</li>
+                <li>Minor UI improvement</li>
+                <li>Message board can now be updated dynamically</li>
+            </ul>
+            <a href="https://kahoot-smash.tk/updatelog.html" target="_blank">Previous updates</a>
+            <hr>
+            <h2>Kahoot Smasher Creation</h2>
+            <p>This documentation will describe the creation of kahoot smasher and walk though the steps required to undertake a similar project.</p>
+
+            <p>I will provide a guide here as to encourage creativity and the development of chrome extensions that can help improve all of our browsing experiences. The resources I provide are for educational purposes only and will not provide a comprehensive tutorial. For those you should investigate official sources such as <a href="https://developer.chrome.com/extensions/getstarted">Google's own tutorial series</a>.</p>
+            <h2>What I will be covering</h2>
+            <ul>
+                <li><a class="unmarked_link" href="https://kahoot-smash.tk/documentation/javascript.php">Javascript inspecting</a></li>
+                <li><a class="unmarked_link" href="https://kahoot-smash.tk/documentation/extensions.php">Chrome extensions</a></li>
+                <li><a class="unmarked_link" href="https://kahoot-smash.tk/documentation/javascript.html">Making a website</a></li>
+                <li><a class="unmarked_link" href="https://kahoot-smash.tk/documentation/javascript.html">Hosting and publishing a site</a></li>
+                <li><a class="unmarked_link" href="https://kahoot-smash.tk/documentation/javascript.html">Android app development</a></li>
+                <li><a class="unmarked_link" href="https://kahoot-smash.tk/documentation/javascript.html">Kahoot Smasher history</a></li>
+            </ul>
+            <hr>
+            <p style="text-align:center;font-size:14px;margin-top:20px;margin-bottom:-31px;"><a href="https://kahoot-smash.tk/contactMe.html">Contact me</a></p>
+            <p style="text-align:center;font-size:14px;margin-top:35px;margin-bottom:-41px;"><a href="https://kahoot-smash.tk/privacy_policy.html" target="_blank">Privacy Policy</a></p>
+
+            <a id="content" class="styledButton" href="https://kahoot-smash.tk/">Home</a>
+            <a id="next" class="styledButton alignedRight" href="https://kahoot-smash.tk/documentation/javascript.php">Javascript inspecting</a>
+        </div>
+    </div>
+
+
+
+
+<script>
+    $(window).on("scroll", adustToNav);
+
+    function adustToNav() {
+        if ($(document).scrollTop() > 10)
+        {
+            $('#title').addClass('minimizeTopBar');
+            $('#title').removeClass('maximizeTopBar');
+        }
+        else
+        {
+            $('#title').addClass('maximizeTopBar');
+            $('#title').removeClass('minimizeTopBar');
+        }
+   }
+   adustToNav();
+</script>
+
+<script>
+    $(window).on("scroll", function() {
+        if ($(document).scrollTop() > 50)
+        {
+            $('#frame_div').addClass('shrink');
+        }
+        else
+        {
+            $('#frame_div').removeClass('shrink');
+        }
+    });
+    if (chrome.app.isInstalled) {
+        document.getElementById('xButtonInstall').style.display = 'none';
+    }
+</script>
+</body></html>
